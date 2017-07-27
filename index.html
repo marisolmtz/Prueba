@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba HTML + CSS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="">
+    <style type="text/css">
+    	header.main {
+			background-size: cover; 
+			min-height: 300px;
+		}
+		header.main .hero h1 {
+			background-color: rgba(255,255,255, 0.8);
+	 		color: black;
+	 		padding: 40px;
+	 		font-size: 28px;
+	 		position: absolute;
+	 		bottom: 0px;
+	 		margin: 0px;
+		}
+    	h2 {
+    		text-align: center;
+    		color: green;
+    	}
+    	h3 {
+    		text-align: center;
+    		color: green;
+    	}
+    	
+    	li {
+			color: black;
+ 			font-size: 10px;
+ 			text-align: center;
+ 		}
+ 		@media (max-width: 1500px) {
+ 			img{ width:"70px"; height:"70px";}
+ 		}
+ 		@media (max-width: 1000px) {
+ 			img{ width:"50px"; height:"50px";}
+ 		}
+ 		@media (max-width: 500px) {
+ 			img{ width:"30px"; height:"30px";}
+ 		}
+    </style>
+</head>
+<body>
+	<header class="main">
+		<div class="container">
+		<img src="hero.jpg"; class="img-responsive" alt="Responsive image">
+		<nav>
+			<a href="logo.svg"> </a>
+			<ul class="navigation">
+				<li>Inicio</li>
+				<li>Blog</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
+			<div class="hero col-md-4 col-md-offset-4">
+					<div class="center content">
+						<h1>Comienza una nueva vida y únete al mundo tecnológico</h1>
+					</div>
+				</div>
+			</div>
+	</header>
+
+	<h2>Beneficios</h2>
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="coffee.svg"; class="img-responsive" alt="Responsive image">
+				<h3>Curso intensivo</h3>
+				<p>En programas de 12 a 30 semanas intensivas aprende todo lo que necesitas para entrar al mercado laboral, diurno o vespertino. Son cursos presenciales apoyados con material digital en nuestra plataforma especializada.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="screen.svg"; class="img-responsive" alt="Responsive image">
+				<h3>Curso intensivo</h3>
+				<p>En programas de 12 a 30 semanas intensivas aprende todo lo que necesitas para entrar al mercado laboral, diurno o vespertino. Son cursos presenciales apoyados con material digital en nuestra plataforma especializada.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="door.svg"; class="img-responsive" alt="Responsive image">
+				<h3>Curso intensivo</h3>
+				<p>En programas de 12 a 30 semanas intensivas aprende todo lo que necesitas para entrar al mercado laboral, diurno o vespertino. Son cursos presenciales apoyados con material digital en nuestra plataforma especializada.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container"; style="padding-top: 40px; padding-bottom: 40px;">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-3">
+				<img src="clean_is_good.jpg"; width="100px"; height="100px"; border-radius="100%";>
+			</div>
+			<div class="col-md-9 col-sm-9 col-xs-9">
+				<p style="color: green;">Aprender a programar me dio la libertad de concretizar mis ideas. Antes era frustrante darme cuenta que para hacer lo que queria necesitaba desarrolladores, pero con el BootCamp de programación web de DL fue como ganar superpoderes.</p>
+				<p style="color: black">Nicolás Melgarejo | Fundador de TICLASS</p>
+			</div>
+		</div>
+	</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<footer>
+	<div class="jumbotron" style="background-color: green">
+		<div class="container">
+		<img src="icon_white.svg" style="width: 100px; height: auto;" align="center">
+			<ul>
+				<li><i class="glyphicon glyphicon-pushpin"></i>Ezequias Alliende 2361</li>
+				<li><i class="glyphicon glyphicon-envelope"></i>inscripciones@desafiolatam.com</li>
+				<li><i class="glyphicon glyphicon-phone"></i>+56 9 5117 7975</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
